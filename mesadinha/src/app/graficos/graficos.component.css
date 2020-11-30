@@ -1,0 +1,30 @@
+
+
+
+.icon{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100px;
+}
+
+.navbar{
+  background:  #696969;
+ display: flex;
+ justify-content: space-evenly;
+ position: static;
+}
+
+.voltar{
+  cursor: pointer;
+}
+
+.categorias{
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+a{
+  color: #fff;
+  text-decoration: white;
+}

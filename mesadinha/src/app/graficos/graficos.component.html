@@ -1,0 +1,24 @@
+<!-- Just an image -->
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<nav class="navbar">
+  <a class="navbar-brand">
+    <img
+      src="https://cdn.discordapp.com/attachments/547485613721649162/776178500268720188/5.png"
+      class="icon"
+      alt=""
+    />
+  </a>
+  <a class="categorias" style="color: white" (click)="graficos()">Graficos</a>
+  <a class="categorias" style="color: white" (click)="lancamento()"
+    >Lançamento</a
+  >
+
+</nav>
+
+<div>
+  <canvas #meuCanvas></canvas>
+</div>

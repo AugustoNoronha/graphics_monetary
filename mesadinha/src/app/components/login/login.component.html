@@ -1,0 +1,26 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<div class="sidenav">
+  <div class="login-main-text">
+    <img src="https://cdn.discordapp.com/attachments/547485613721649162/776178500268720188/5.png" alt="">
+    
+    
+  </div>
+</div>
+<div class="main">
+  <div class="col-md-6 col-sm-12">
+     <div class="login-form">
+        <form class="form" [formGroup]="formularioLogin">
+           <div class="form-group">
+              <label>User Name</label>
+              <input type="text" class="form-control" placeholder="User Name" formControlName="nome">
+           </div>
+           <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="Password" formControlName="senha">
+           </div>
+           <button (click)= "lancamento()" type="submit" class="btn btn-black">Login</button>
+           <button (click)="cadastro()" type="submit" class="btn btn-secondary">Register</button>
+        </form>
+     </div>
+  </div>
+</div>
